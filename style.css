@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.registration{
+    background-image: url(images/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.backoverlay{
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.registration-form{
+    width: 75%;
+    margin: 70px auto;
+    display: flex;
+    
+}
+
+.r-left{
+    width: 50%;
+    background-color: #1A6DAC;
+    padding: 40px;
+    border-radius: 5px 0px 0px 5px;
+    
+}
+.r-left h1{
+    margin: 20px 0px 10px 0px;
+    color: #ffffff;
+}
+.r-left p{
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    
+}
+.r-left button{
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px 0 5px 0;
+    margin: 20px 0px 50px 0px;
+    transition: all .3s ease;
+}
+.r-left button:hover{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color:  #1A6DAC;
+    transition: all .3s ease;
+    
+    
+}
+.r-left button a:hover{
+    color: #ffffff;
+    transition: all .3s ease;
+}
+.r-left button a{
+    color: #2F292A;
+    text-decoration: none;
+    font-weight: 700;
+}
+.r-right{
+    width: 50%;
+    background: #ffffff;
+    padding: 40px;
+}
+.r-right h1{
+    margin: 20px 0;
+    color: #1A6DAC;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.f-name{
+    width: 46%;
+}
+.l-name{
+    width: 46%;
+}
+
+.email-i{
+    width: 100%;
+}
+.email-i label{
+    display: block;
+}
+.email-i input{
+    width: 99%;
+}
+.password-i{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.p-left{
+    width: 46%;
+}
+.p-right{
+    width: 46%;
+}
+input{
+    padding: 8px;
+    border: 1px solid rgb(206, 204, 204);
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+label{
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
+label:last-child{
+    color: black;
+    font-size: 12px;
+    
+}
+.conditions{
+    font-size: 14px;
+    display: flex;
+    margin: 10px 0px;
+    
+}
+.conditions input{
+    
+    margin: 1px 5px 0px 0px;
+    padding: 0;
+}
+
+.conditions a{
+    color: #1A6DAC;
+    font-weight: 500;
+}
+.register-button button{
+    background-color: #1A6DAC;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 20px 0px 50px 0px;
+}
+.register-button button a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(189, 186, 186);
+    border-radius: 0px;
+}
